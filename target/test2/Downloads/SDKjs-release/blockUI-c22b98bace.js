@@ -1,0 +1,1 @@
+function blockUI(o){$block=$("<div></div>");var c=$(o);$block.css({position:"fixed",top:"0",width:"100%",height:"100%","background-color":"rgba(90,90,90,0.5)"}),c.css({position:"absolute",color:"white",left:"50%",top:"50%",transform:"translate(-50%, -50%)"}),$block.append(c),$("body").append($block)}function unBlockUI(){$block.remove()}var $block=null;
